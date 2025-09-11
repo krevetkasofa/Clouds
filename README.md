@@ -13,6 +13,7 @@
 
 ## Ход работы:
 ### 1. Установка необходимых пакетов
+
 `sudo apt update && sudo apt install nginx openssl -y`
 
 Проверяем, что сервер запущен успешно: 
@@ -20,6 +21,7 @@
 <img width="762" height="309" alt="изображение(1)1" src="https://github.com/user-attachments/assets/4f7a955f-f29a-4c95-b5cc-56967d306ae4" />
 
 ### 2. Создаем струтуру каталогов 
+
 `sudo mkdir -p /etc/nginx/sites-available`
 
 `sudo mkdir -p /etc/nginx/sites-enabled`
@@ -70,6 +72,7 @@
 
 
 ### 4. Настройка конфигурационных файлов
+
 `sudo nano /etc/nginx/nginx.conf`
 
 <img width="1280" height="800" alt="Снимок экрана от 2025-09-11 22-23-31" src="https://github.com/user-attachments/assets/6f1aad01-3319-47cb-8d69-33a056af011a" />
@@ -124,6 +127,7 @@
 `sudo chmod -R 755 /var/www/project2/`
 
 ### 7 Настройка доменов 
+
 `sudo nano /etc/hosts`
 
 <img width="1280" height="800" alt="Снимок экрана от 2025-09-11 22-48-3811" src="https://github.com/user-attachments/assets/d7a57530-4f51-42c3-913c-ddb2c70dab75" />
@@ -134,6 +138,7 @@
 ### 8 Проверка конфигураций и конфликтов 
 
 `sudo nginx -t `
+
 <img width="879" height="125" alt="Снимок экрана от 2025-09-11 22-55-11(1)" src="https://github.com/user-attachments/assets/d8e887d9-980e-4d48-97de-e19a5829063b" />
 
 Nginx работает корректно, а предупреждения не мешают ходу работы и вполне ожидаемы, тк мы перенаправляем порты.

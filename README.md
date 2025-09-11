@@ -134,9 +134,9 @@
 ### 8 Проверка конфигураций и конфликтов 
 
 `sudo nginx -t `
-#### Я ХЗ У МЕНЯ ТУТ хуйня НО ВСЕ РАБОТАЕТ 
 <img width="879" height="125" alt="Снимок экрана от 2025-09-11 22-55-11(1)" src="https://github.com/user-attachments/assets/d8e887d9-980e-4d48-97de-e19a5829063b" />
 
+Nginx работает корректно, а предупреждения не мешают ходу работы и вполне ожидаемы, тк мы перенаправляем порты.
 ### 9 Тестирование
 1. `curl -I http://project1.local`
 <img width="607" height="152" alt="ббббб(1)1111" src="https://github.com/user-attachments/assets/b690bf26-b52d-4a4c-a035-689e7712ccc7" />

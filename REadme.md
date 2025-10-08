@@ -8,3 +8,4 @@
 
 ## Ход работы:
 ### 1. Установка необходимых пакето
+`sudo mkdir -p /etc/nginx/sites-available`
